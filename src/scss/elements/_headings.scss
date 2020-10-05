@@ -1,0 +1,34 @@
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--ff-title);
+  line-height: var(--lh-thin);
+}
+
+h1{
+  font-size: var(--fz-h1);
+  margin: 0;
+}
+
+h2{
+  font-size: var(--fz-h2);
+  font-family: var(--ff-normal);
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: var(--fz-h3);
+}
+
+h4{
+  font-size: var(--fz-h4);
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    --fz-h1: 3.5rem;
+  }
+    h2 {
+      --fz-h2: 6.5rem;
+    }
+}

@@ -1,0 +1,36 @@
+
+
+
+a{
+
+  &:link{
+    color: var(--color-link);
+    text-decoration: none;
+  }
+
+  &:visited{
+    color: var(--color-visited);
+  }
+
+  &:hover{
+    color: var(--color-hover);
+    //text-decoration: underline;
+  }
+
+  &:active{
+    color: var(--color-active);
+
+  }
+
+  &:focus{
+    color: var(--color-focus);
+
+  }
+
+}
+
+
+
+
+
+

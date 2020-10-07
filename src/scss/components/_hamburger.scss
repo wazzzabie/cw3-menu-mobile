@@ -1,0 +1,29 @@
+.hamburger{
+  position: relative;
+
+.material-icons{
+  font-size:2rem;
+}
+
+  .icon-open, .icon-close{
+    transition: .3s transform ease-out;
+  }
+
+  .icon-close{
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  &.open{
+    .icon-open, .icon-close{
+      transition: .3s transform ease-in;
+    }
+    .icon-close{
+      transform: translate(-50%, -50%) scale(1);
+    }
+    .icon-open{
+      transform: scale(0);
+    }
+  }
+}
